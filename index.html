@@ -1,24 +1,28 @@
 <!doctype html>
 <html>
 <head>
+
     <title>Curriculum Vitae - Harun Hasic</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+      <link rel="stylesheet" type"text/css" href="hhcv.css">
 </head>
 
-<body>
-<div>
+<body class="body">
+
+<div id="container">
+
 	<h1>Harun Hasic</h1>
 	<h3>IUS Student | Software Engineering</h3>
+
 	<figure title="Harun Hasic">
-	<image src="Images/hhasic.jpg" width=150px height=200px  />
+	<image src="images/hhasic.jpg" width=150px height=200px  />
 	</figure>
 	<hr/>
 	<h3>About me</h3>
-	<p>Highly motivated 21 years old 3<sup>rd</sup> year student at<acronym title="International University of Sarajevo"> IUS</acronym>.	Mostly interested in developing smart software solutions using <em>Java</em> programming language.<br/>
+	<p>Highly motivated 3<sup>rd</sup> year student at<acronym title="International University of Sarajevo"> IUS</acronym>.	Mostly interested in developing smart software solutions using <em>Java</em> programming language.<br/>
 	Experienced in <strong>Java</strong> and <strong>Java Spring Boot</strong> framework.
 	Also experenced in front and back end development. 
 	Currently taking <em>Web Application Development </em> course in which I hope to learn even more about <em>Web Development</em> and hopefully increase my knowledge<br/>
@@ -62,12 +66,24 @@
 	<hr/>
 	<h3>Social networks</h3>
 	<table>
-	<tr><th><a href=" https://github.com/harunhasic">GitHub</a></th><th>
-	<a href="https://www.instagram.com/harunhasicc/">Instagram</a></th><th>
-	<a href="https://www.facebook.com/harunze">Facebook</a></br></th>
+	<tr><th><a href=" https://github.com/harunhasic"><img border="0" alt="GitHub" src="Images/github.jpg" width="70" height="70"></a></th><th>
+	<a href="https://www.instagram.com/harunhasicc/"><img border="0" alt="Instagram" src="Images/insta.jpg" width="50" height="50"></a></th><th>
+	<a href="https://www.facebook.com/harunze"><img border="0" alt="Facebook" src="Images/facebook.png" width="50" height="50"></a></th><th>
 	</table>
 	<hr/>
-	<img src="https://media.giphy.com/media/69pKX6fv2QgTe/giphy.gif" width=300px height=300px/>
+	 <form action="someAction">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="Your name">
+
+                <label for="surname">Last Name</label>
+                <input type="text" id="surname" name="lastname" placeholder="Your last name">
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Message" style="height: 150px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+	
 	
 </div>
 </body>
