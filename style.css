@@ -1,0 +1,196 @@
+@font-face {
+            font-family: myNewFont;
+            src:url("fonts/Quicksand-Light.otf");
+
+        }
+	
+		#topbar{
+		background-color:#000000;
+		width:100%;
+		height:40px;
+		color:white;
+		
+		}
+
+		body{
+		margin:0;
+		 font-family:"myNewFont", Arial, sans-serif;
+		 
+			
+		}
+		.bg{
+			
+            background: url("Images/bg.jpg") no-repeat center;
+            background-size:cover;
+	background-attachment:fixed;
+	
+		}
+		.scroll1{
+	background:url("Images/bg2.jpg") no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	height:500px;
+	}
+	.scroll1 img{
+		height:450px;
+		width:300px;
+	
+		
+		padding: 20px 200px 0 500px;
+	
+	}
+	.scroll{
+	background:url("Images/bg6.jpg") no-repeat center;
+	background-size:cover;
+	background-attachment:fixed;
+	height:500px;
+}
+.scroll p{
+			text-align:center;
+			vertical-align: middle;
+			padding-top:100px;
+			font-weight:bold;
+			font-size:2em;
+			color: white;
+			  background:rgba(0,0,0,0.1);
+		}
+		.fixedWidth{
+		width:1050px;
+		margin:0 auto;
+		}
+		
+		#logoDiv{
+		padding:0 0 0 0;
+		float:left;
+		border:3px solid palegreen;
+	
+		
+		}
+		#signInDiv{
+		font-weight:bold;
+		padding:0px 20px 7px 30px;
+		font-size:0.9em;
+		float:left;
+		border-right:1px solid palegreen;
+		
+		width:150px;
+		height:100%;
+		}
+		#signInDiv img{
+			position:relative;
+			top:9px;
+			left:-5px;
+		
+		}
+		
+		#topMenuDiv{
+		float:left;
+		
+		}
+		
+		#topMenuDiv ul{
+		margin:0;
+		border-right:2px solid palegreen;
+		height:100%;
+		padding:0;
+	}
+	#topMenuDiv li{
+	list-style:none;
+	font-weight:bold;
+	font-size:0.9em;
+	padding:15px 20px 8px 20px;
+	float:left;
+	border-right:1px solid palegreen;
+	
+	}
+	#searchDiv{
+		float:left;
+		padding:8px;
+		border:none;
+		
+	}
+	#searchDiv input{
+	height:20px;
+	padding-left:10px;
+	background-image:url("Images/search.png");
+	background-repeat: no-repeat;
+	background-position:right center;
+	}
+	.break{
+	clear:both;
+	
+	
+	}
+			#contentBar{
+		
+		width:100%;
+		position:center;
+		height:80px;
+		color:white;
+		   background:rgba(0,0,0,0.8);
+		   margin-bottom:270px;
+		      margin-top:230px;
+		   
+	
+		}
+	#contentBar p{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px; 
+ 		 font-family:"myNewFont", Arial, sans-serif;
+		 font-size:1.8em;
+	}
+		.content{
+		
+		width:100%;
+		height:500px;
+		color:white;
+		   background:rgba(0,0,0,0.8);
+	
+		}
+		.content p{
+			text-align:center;
+			vertical-align: middle;
+			padding-top:100px;
+			
+		}
+		.contact{
+			width:100%;
+		height:450px;
+		color:white;
+		   background:rgba(0,0,0,0.8);
+		}
+		.contact p{
+			text-align:center;
+			vertical-align: middle;
+			font-size:2em;
+			
+		}
+		
+		.content h1{
+			text-align:center;
+			vertical-align: middle;
+			font-size:2.5em;
+			
+			
+			
+		}
+		#table{
+		
+		width:100%;
+		height:100px;
+		color:white;
+		   background:rgba(0,0,0,0.8);
+		
+		
+		}
+		a{
+		color:white;
+		text-decoration:none;
+		}
+input[type=text] {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
