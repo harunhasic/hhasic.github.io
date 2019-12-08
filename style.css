@@ -11,9 +11,14 @@
 		color:white;
 		
 		}
+.container{
+	width: 100%;
+	height: auto;
+}
 
 		body{
 		margin:0;
+			padding:0;
 		 font-family:"myNewFont", Arial, sans-serif;
 		 
 			
@@ -26,17 +31,18 @@
 	
 		}
 		.scroll1{
+			margin-top:600px;
 	background:url("Images/bg2.jpg") no-repeat center;
 	background-size:cover;
 	background-attachment:fixed;
-	height:500px;
+	height:100px;
+			width:100%;
 	}
 	.scroll1 img{
-		height:450px;
-		width:300px;
-	
-		
-		padding: 20px 200px 0 500px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:0;
 	
 	}
 	.scroll{
@@ -44,8 +50,22 @@
 	background-size:cover;
 	background-attachment:fixed;
 	height:500px;
+		opacity: 0.8;
 }
-.scroll p{
+.scroll2{
+
+	width:100%;
+	height:500px;
+	color:white;
+	background:rgba(0,0,0,0.8);
+	margin:auto;
+
+}
+.scroll2 ul{
+	font-family: "myNewFont",sans-serif;
+	font-size:1.2em;
+}
+.scroll, .scroll2 p{
 			text-align:center;
 			vertical-align: middle;
 			padding-top:100px;
@@ -66,7 +86,7 @@
 	
 		
 		}
-		#signInDiv{
+		#gameDiv{
 		font-weight:bold;
 		padding:0px 20px 7px 30px;
 		font-size:0.9em;
@@ -76,8 +96,10 @@
 		width:150px;
 		height:100%;
 		}
-		#signInDiv img{
+		#gameDiv img{
 			position:relative;
+			width:33px;
+			height:33px;
 			top:9px;
 			left:-5px;
 		
@@ -145,8 +167,9 @@
 		width:100%;
 		height:500px;
 		color:white;
-		   background:rgba(0,0,0,0.7);
-	
+		   background:rgba(0,0,0,0.5);
+			margin-top:600px;
+			margin-bottom:0;
 		}
 		.content p{
 			text-align:center;

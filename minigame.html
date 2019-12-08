@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>CV Harun Hasic Minigame</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+  <style>
+    @font-face {
+      font-family: myNewFont;
+      src:url("fonts/Quicksand-Light.otf");
+
+    }
+    body{
+      font-family:myNewFont, Arial, sans-serif;
+      background-color:black;
+      color:white;
+      text-align:center;
+    }
+    #box {
+      /*Harun Hasic 2019- if you want the shapes to have no image, but to have different colors each time, delete the background img and background-position commands*/
+      background:url("Images/img.jpg");
+      background-position:center;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      display: none;
+      position: relative;
+    }
+  .text{
+    font-size:1.2em;
+    color:palegreen;
+  }
+    .time{
+      font-weight:bold;
+      font-size:1.3em;
+
+    }
+    a{
+      color:white;
+      float:left;
+      font-size:1.3em;
+      text-decoration: none;
+    }
+    a:hover{
+      color:palegreen;
+    }
+    .fixedWidth{
+      width:1050px;
+      margin:0 auto;
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="fixedWidth">
+<a href="index.html">Back</a>
+<h1>Test your speed</h1>
+<p class="text">Try to catch the boxes and circles on the screen as quickly as you can.</p>
+<p class="time">Your time:  <span id="time">0</span> seconds</p>
+</div>
+  <div id="box">
+
+
+  </div>
+
+
+
+<script type="text/javascript" src="game.js"></script>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
